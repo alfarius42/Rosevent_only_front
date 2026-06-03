@@ -1,0 +1,27 @@
+{
+  "name": "ROSEVENT - Event-агентство полного цикла",
+  "short_name": "ROSEVENT",
+  "description": "Организация корпоративных мероприятий, MICE, конференций и выставок",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#2C9BDA",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "events", "productivity"],
+  "lang": "ru",
+  "dir": "ltr"
+}

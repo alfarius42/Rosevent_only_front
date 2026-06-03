@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Главная страница - Hero и логотип -->
+  <url>
+    <loc>https://rosevent.ru/</loc>
+    <image:image>
+      <image:loc>https://rosevent.ru/images/hero-event.jpg</image:loc>
+      <image:title>ROSEVENT - Премиальное event-агентство</image:title>
+      <image:caption>Организация корпоративных мероприятий с 2004 года</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://rosevent.ru/images/logo-rosevent.png</image:loc>
+      <image:title>ROSEVENT логотип</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Портфолио - Кейсы с изображениями -->
+  <url>
+    <loc>https://rosevent.ru/portfolio/prezentatsiya-novoy-modeli-mercedes-benz-s-class</loc>
+    <image:image>
+      <image:loc>https://rosevent.ru/images/portfolio/mercedes-s-class.jpg</image:loc>
+      <image:title>Презентация Mercedes-Benz S-Class</image:title>
+      <image:caption>Международная премиальная презентация для 500 VIP-гостей</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://rosevent.ru/portfolio/mezhdunarodnyy-biznes-forum-rbk</loc>
+    <image:image>
+      <image:loc>https://rosevent.ru/images/portfolio/rbc-forum.jpg</image:loc>
+      <image:title>Международный бизнес-форум РБК</image:title>
+      <image:caption>Трехдневный форум для 2000 участников</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://rosevent.ru/portfolio/korporativnaya-vecherinka-sberbank</loc>
+    <image:image>
+      <image:loc>https://rosevent.ru/images/portfolio/sberbank-party.jpg</image:loc>
+      <image:title>Корпоративная вечеринка Сбербанк</image:title>
+      <image:caption>Зимний тимбилдинг для 300 топ-менеджеров</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://rosevent.ru/portfolio/tech-conference-yandex-2024</loc>
+    <image:image>
+      <image:loc>https://rosevent.ru/images/portfolio/yandex-tech.jpg</image:loc>
+      <image:title>Tech Conference Yandex 2024</image:title>
+      <image:caption>Конференция для разработчиков с 1500 участников</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://rosevent.ru/portfolio/vystavochnyy-stend-bmw-na-mmas</loc>
+    <image:image>
+      <image:loc>https://rosevent.ru/images/portfolio/bmw-booth.jpg</image:loc>
+      <image:title>Выставочный стенд BMW на ММАС</image:title>
+      <image:caption>Премиальный стенд 800 м² на Московском автосалоне</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://rosevent.ru/portfolio/dilerskiy-forum-audi</loc>
+    <image:image>
+      <image:loc>https://rosevent.ru/images/portfolio/audi-forum.jpg</image:loc>
+      <image:title>Дилерский форум Audi</image:title>
+      <image:caption>Ежегодный форум для 200 представителей дилерской сети</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://rosevent.ru/portfolio/product-demo-zone-dlya-gazprom-neft</loc>
+    <image:image>
+      <image:loc>https://rosevent.ru/images/portfolio/gazprom-demo.jpg</image:loc>
+      <image:title>Product Demo Zone Газпром Нефть</image:title>
+      <image:caption>Интерактивная демо-зона с VR-технологиями</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://rosevent.ru/portfolio/bolshoy-tekhnologicheskiy-forum</loc>
+    <image:image>
+      <image:loc>https://rosevent.ru/images/portfolio/mts-tech-forum.jpg</image:loc>
+      <image:title>Большой технологический форум МТС</image:title>
+      <image:caption>Масштабная конференция для 3000 участников</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://rosevent.ru/portfolio/prezentatsiya-audi-q8-e-tron</loc>
+    <image:image>
+      <image:loc>https://rosevent.ru/images/portfolio/audi-q8.jpg</image:loc>
+      <image:title>Презентация Audi Q8 e-tron</image:title>
+      <image:caption>Премиальная презентация электромобиля для 300 VIP-гостей</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://rosevent.ru/portfolio/korporativnyy-forum-gazprom</loc>
+    <image:image>
+      <image:loc>https://rosevent.ru/images/portfolio/gazprom-forum.jpg</image:loc>
+      <image:title>Корпоративный форум Газпром</image:title>
+      <image:caption>Ежегодный форум для 800 руководителей</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://rosevent.ru/portfolio/mezhdunarodnaya-vystavka-innoprom</loc>
+    <image:image>
+      <image:loc>https://rosevent.ru/images/portfolio/innoprom.jpg</image:loc>
+      <image:title>Международная выставка ИННОПРОМ</image:title>
+      <image:caption>Российский павильон площадью 2000 м²</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://rosevent.ru/portfolio/kak-my-organizovali-forum-na-5000-chelovek</loc>
+    <image:image>
+      <image:loc>https://rosevent.ru/images/portfolio/army-forum.jpg</image:loc>
+      <image:title>Форум Армия - 5000 участников</image:title>
+      <image:caption>Behind the scenes крупнейшего отраслевого мероприятия</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- Услуги - изображения карточек -->
+  <url>
+    <loc>https://rosevent.ru/services/corporate-events</loc>
+    <image:image>
+      <image:loc>https://rosevent.ru/images/services/corporate-events.jpg</image:loc>
+      <image:title>Корпоративные мероприятия</image:title>
+      <image:caption>Организация корпоративных праздников и вечеринок</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://rosevent.ru/services/online-events</loc>
+    <image:image>
+      <image:loc>https://rosevent.ru/images/services/mice.jpg</image:loc>
+      <image:title>MICE услуги</image:title>
+      <image:caption>Деловой туризм и корпоративные поездки</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://rosevent.ru/services/conferences</loc>
+    <image:image>
+      <image:loc>https://rosevent.ru/images/services/conferences.jpg</image:loc>
+      <image:title>Конференции и форумы</image:title>
+      <image:caption>Организация бизнес-конференций любого масштаба</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://rosevent.ru/services/team-building</loc>
+    <image:image>
+      <image:loc>https://rosevent.ru/images/services/team-building.jpg</image:loc>
+      <image:title>Тимбилдинг</image:title>
+      <image:caption>Командообразующие мероприятия и активности</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://rosevent.ru/services/exhibitions</loc>
+    <image:image>
+      <image:loc>https://rosevent.ru/images/services/exhibitions.jpg</image:loc>
+      <image:title>Выставки и экспозиции</image:title>
+      <image:caption>Разработка и монтаж выставочных стендов</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://rosevent.ru/services/decor</loc>
+    <image:image>
+      <image:loc>https://rosevent.ru/images/services/decor.jpg</image:loc>
+      <image:title>Декор и оформление</image:title>
+      <image:caption>Премиальное оформление мероприятий</image:caption>
+    </image:image>
+  </url>
+  
+</urlset>

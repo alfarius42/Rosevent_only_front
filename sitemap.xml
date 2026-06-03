@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- ========================================
+       ГЛАВНАЯ СТРАНИЦА
+       ======================================== -->
+  <url>
+    <loc>https://rosevent.ru/</loc>
+    <lastmod>2024-12-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- ========================================
+       ОСНОВНЫЕ РАЗДЕЛЫ
+       ======================================== -->
+  <url>
+    <loc>https://rosevent.ru/portfolio</loc>
+    <lastmod>2024-12-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://rosevent.ru/services</loc>
+    <lastmod>2024-12-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ========================================
+       СТРАНИЦЫ УСЛУГ (КОМПЕТЕНЦИИ)
+       ======================================== -->
+  
+  <!-- Авто-мероприятия и презентации -->
+  <url>
+    <loc>https://rosevent.ru/services/avto-meropriyatiya-i-prezentacii</loc>
+    <lastmod>2024-12-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Экспонирование -->
+  <url>
+    <loc>https://rosevent.ru/services/eksponirovanie</loc>
+    <lastmod>2024-12-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Корпоративные события -->
+  <url>
+    <loc>https://rosevent.ru/services/korporativnye-sobytiya</loc>
+    <lastmod>2024-12-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Конференции и форумы -->
+  <url>
+    <loc>https://rosevent.ru/services/konferencii-i-forumy</loc>
+    <lastmod>2024-12-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Online Events -->
+  <url>
+    <loc>https://rosevent.ru/services/online-events</loc>
+    <lastmod>2024-12-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ========================================
+       КЕЙСЫ ПОРТФОЛИО
+       ======================================== -->
+  
+  <!-- Презентация новой модели Mercedes-Benz S-Class -->
+  <url>
+    <loc>https://rosevent.ru/portfolio/prezentaciya-novoy-modeli-mercedes-benz-s-class</loc>
+    <lastmod>2024-12-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Международный бизнес-форум РБК -->
+  <url>
+    <loc>https://rosevent.ru/portfolio/mezhdunarodnyy-biznes-forum-rbk</loc>
+    <lastmod>2024-12-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Корпоративная вечеринка Сбербанк -->
+  <url>
+    <loc>https://rosevent.ru/portfolio/korporativnaya-vecherinka-sberbank</loc>
+    <lastmod>2024-12-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Tech Conference Yandex 2024 -->
+  <url>
+    <loc>https://rosevent.ru/portfolio/tech-conference-yandex-2024</loc>
+    <lastmod>2024-12-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Выставочный стенд BMW на ММАС -->
+  <url>
+    <loc>https://rosevent.ru/portfolio/vystavochnyy-stend-bmw-na-mmas</loc>
+    <lastmod>2024-12-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Дилерский форум Audi -->
+  <url>
+    <loc>https://rosevent.ru/portfolio/dilerskiy-forum-audi</loc>
+    <lastmod>2024-12-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Product Demo Zone для Газпром Нефть -->
+  <url>
+    <loc>https://rosevent.ru/portfolio/product-demo-zone-dlya-gazprom-neft</loc>
+    <lastmod>2024-12-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Большой технологический форум -->
+  <url>
+    <loc>https://rosevent.ru/portfolio/bolshoy-tehnologicheskiy-forum</loc>
+    <lastmod>2024-12-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Презентация Audi Q8 e-tron -->
+  <url>
+    <loc>https://rosevent.ru/portfolio/prezentaciya-audi-q8-e-tron</loc>
+    <lastmod>2024-12-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Презентация Hyundai Sonata -->
+  <url>
+    <loc>https://rosevent.ru/portfolio/prezentacziya-hyundai-sonata</loc>
+    <lastmod>2024-12-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Корпоративный форум Газпром -->
+  <url>
+    <loc>https://rosevent.ru/portfolio/korporativnyy-forum-gazprom</loc>
+    <lastmod>2024-12-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Международная выставка ИННОПРОМ -->
+  <url>
+    <loc>https://rosevent.ru/portfolio/mezhdunarodnaya-vystavka-innoprom</loc>
+    <lastmod>2024-12-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Как мы организовали форум на 5000 человек (видео кейс) -->
+  <url>
+    <loc>https://rosevent.ru/portfolio/kak-my-organizovali-forum-na-5000-chelovek</loc>
+    <lastmod>2024-12-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ========================================
+       СЛУЖЕБНЫЕ СТРАНИЦЫ
+       ======================================== -->
+  
+  <!-- Политика конфиденциальности -->
+  <url>
+    <loc>https://rosevent.ru/privacy-policy</loc>
+    <lastmod>2024-12-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Реквизиты компании -->
+  <url>
+    <loc>https://rosevent.ru/company-details</loc>
+    <lastmod>2024-12-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>

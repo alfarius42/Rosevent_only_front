@@ -1,0 +1,45 @@
+name: Validate static package
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+  pull_request:
+    branches:
+      - main
+      - develop
+
+jobs:
+  validate:
+    name: Check deploy package
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Required files exist
+        run: |
+          set -e
+          for f in index.html .htaccess robots.txt sitemap.xml manifest.json favicon.svg; do
+            test -f "$f" || { echo "Missing: $f"; exit 1; }
+          done
+          test -d assets || { echo "Missing: assets/"; exit 1; }
+          test -d fallback-media || { echo "Missing: fallback-media/"; exit 1; }
+          test -d trust-logos || { echo "Missing: trust-logos/"; exit 1; }
+          echo "All required paths present"
+
+      - name: index.html references assets
+        run: |
+          grep -q 'assets/' index.html || { echo "index.html must reference assets/"; exit 1; }
+
+      - name: No localhost Strapi in bundles (warning)
+        run: |
+          if grep -r 'localhost:1337' assets/*.js 2>/dev/null; then
+            echo "::warning::Found localhost:1337 in assets — check production env"
+          fi
+          echo "Scan done"
+
+      - name: Package size report
+        run: |
+          du -sh . assets fallback-media trust-logos 2>/dev/null || true

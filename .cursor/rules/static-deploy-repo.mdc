@@ -1,0 +1,23 @@
+---
+description: Правила работы со статическим deploy-репозиторием Rosevent
+globs: "**/*"
+alwaysApply: true
+---
+
+# Статический пакет
+
+- Не добавлять `package.json` / Node-сборку в этот репо — сборка только из Rosevent.
+- Не удалять и не переименовывать хеши в `assets/` без полной пересборки.
+- Сохранять `.htaccess`, `fallback-media/`, `trust-logos/`, sitemap/robots при обновлении.
+
+# Git
+
+- Рабочая ветка: `develop`.
+- В `main` — только через PR после проверки CI.
+- Коммиты: `deploy: …`, `fix(static): …`, `docs: …`.
+
+# Проверка перед merge в main
+
+- `index.html` на месте
+- `assets/index-*.js` и `assets/index-*.css` существуют
+- В DEPLOY_INSTRUCTIONS актуальна дата/источник сборки

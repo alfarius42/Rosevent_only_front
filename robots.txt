@@ -1,0 +1,53 @@
+# 🤖 Robots.txt для ROSEVENT - оптимизация под Яндекс и Google
+
+# ========================================
+# ОСНОВНЫЕ ПРАВИЛА ДЛЯ ВСЕХ БОТОВ
+# ========================================
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /*?*utm              # Блокируем UTM-метки от индексации
+Disallow: /*?*fbclid           # Блокируем Facebook click ID
+Disallow: /*?*gclid            # Блокируем Google click ID
+Disallow: /404                 # Страница 404 не индексируется
+
+# ========================================
+# СПЕЦИАЛЬНЫЕ ПРАВИЛА ДЛЯ ЯНДЕКС БОТА
+# ========================================
+
+User-agent: Yandex
+Allow: /
+Crawl-delay: 1                 # Интервал между запросами (1 сек)
+Host: https://rosevent.ru      # Главное зеркало сайта
+
+# ========================================
+# GOOGLE BOT
+# ========================================
+
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# ========================================
+# SITEMAP
+# ========================================
+
+Sitemap: https://rosevent.ru/sitemap.xml
+
+# ========================================
+# ДОПОЛНИТЕЛЬНАЯ ЗАЩИТА
+# ========================================
+
+# Блокируем плохих ботов
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /

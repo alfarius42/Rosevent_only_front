@@ -1,0 +1,56 @@
+name: Deploy static to Masterhost
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Deploy production static
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    environment:
+      name: production
+      url: ${{ vars.PRODUCTION_URL || 'https://rosevent.ru' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate before deploy
+        run: test -f index.html && test -d assets
+
+      - name: Deploy via SSH
+        if: ${{ secrets.SSH_PRIVATE_KEY != '' && secrets.REMOTE_HOST != '' }}
+        uses: easingthemes/ssh-deploy@v5
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+          REMOTE_USER: ${{ secrets.REMOTE_USER }}
+          REMOTE_PORT: ${{ secrets.REMOTE_PORT || '22' }}
+          SOURCE: ./
+          TARGET: ${{ secrets.FRONTEND_REMOTE_PATH || '/var/www/html/' }}
+          ARGS: '-avz --delete --exclude=.git --exclude=.github'
+
+      - name: Deploy via FTP
+        if: ${{ secrets.FTP_HOST != '' && secrets.SSH_PRIVATE_KEY == '' }}
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./
+          server-dir: ${{ secrets.FTP_FRONTEND_PATH || '/public_html/' }}
+          exclude: |
+            **/.git*
+            **/.github/**
+            **/README.md
+            **/AGENTS.md
+            **/CURSOR_CONTEXT.md
+            **/DEPLOY_INSTRUCTIONS.md
+
+      - name: Deploy skipped (no secrets)
+        if: ${{ secrets.SSH_PRIVATE_KEY == '' && secrets.FTP_HOST == '' }}
+        run: |
+          echo "No SSH/FTP secrets configured. Upload manually per DEPLOY_INSTRUCTIONS.md"
